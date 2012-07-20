@@ -1,0 +1,12 @@
+Spring AOP Pointcut with internal method call demo application
+
+How to run this example:
+call: mvn jetty:run
+open: http://localhost:8080/app/
+And you will see this messages in console:
+
+before doStuff
+INFO : com.mvc.demo.HomeController - Welcome home! the client locale is en_US
+after doStuff
+
+See TestAspect and servlet-context.xml code
