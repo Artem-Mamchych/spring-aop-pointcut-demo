@@ -10,3 +10,8 @@ INFO : com.mvc.demo.HomeController - Welcome home! the client locale is en_US
 after doStuff
 
 See TestAspect and servlet-context.xml code
+
+--
+RequestMappingAspect - this example shows how to pointcut every method call with @RequestMapping annotation
+It prints userful information to console:
+>>> [RequestMappingAspect] called: String com.mvc.demo.HomeController.home(Locale, Model) line: HomeController.java:26
